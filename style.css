@@ -950,6 +950,19 @@ i {
   justify-content: flex-end;
   line-height: 1.5;
 }
+.outsourcing-top-right h3 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: rgb(120, 199, 212);
+}
+.outsourcing-top-right i {
+  font-size: 25px;
+}
 .outsourcing-service-bottom-section {
   display: flex;
   flex-direction: row;
