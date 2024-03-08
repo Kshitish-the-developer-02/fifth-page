@@ -917,6 +917,130 @@ i {
   font-size: 16px;
 }
 
+/* outsourcing-service-section */
+.outsourcing-service-root {
+  width: 100%;
+}
+.outsourcing-service-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+.outsourcing-service-top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.outsourcing-top-left-part {
+  max-width: 60%;
+}
+.outsourcing-top-left-part h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  line-height: 1.2;
+}
+.outsourcing-top-right {
+  max-width: 40%;
+}
+.outsourcing-top-right p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 1.5;
+}
+.outsourcing-service-bottom-section {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 40px 0;
+}
+.outsourcing-bottom-left-part img {
+  width: 503px;
+  height: 373px;
+}
+.outsourcing-bottom-right {
+  padding: 10px;
+}
+.outsourcing-bottom-right p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding-left: 30px;
+  line-height: 1.5;
+}
+.outsourcing-bottom-right li {
+  padding-left: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  list-style: none;
+  margin-top: 20px;
+}
+.outsourcing-bottom-right i {
+  color: rgb(120, 199, 212);
+  margin-left: 5px;
+}
+
+/* outsourcing experties secion */
+.expertise-section-root {
+  width: 100%;
+}
+.experties-section-content {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+.experties-top-part {
+  position: relative;
+  padding: 20px 0;
+  border-bottom: 2px solid transparent;
+}
+.experties-top-part::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, rgb(50, 203, 230), rgb(6, 41, 155));
+  z-index: 1;
+}
+.experties-top-part h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  line-height: 1.2;
+}
+.experties-top-part p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  margin: 30px 0 30px 0;
+}
+.experties-bottom-part {
+  padding: 30px 0;
+}
+.experties-bottom-div-1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(230, 219, 219);
+  padding: 20px 0;
+}
+.experties-bottom-div-1-left {
+  max-width: 50%;
+}
+.experties-bottom-div-1-left h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.experties-bottom-div-1-right {
+  max-width: 63%;
+}
+.experties-bottom-div-1-right p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+
 /* faq-section */
 .sec-18-root {
   max-width: 1300px;
@@ -1346,6 +1470,53 @@ i {
     margin-top: 23px;
   }
 
+  /* outsourcing-service-section */
+  .outsourcing-service-content {
+    width: 100%;
+  }
+  .outsourcing-service-top-section {
+    flex-direction: column;
+  }
+  .outsourcing-top-left-part {
+    max-width: 100%;
+  }
+  .outsourcing-top-right {
+    max-width: 100%;
+  }
+  .outsourcing-top-left-part h2 {
+    font-size: 41px;
+  }
+  .outsourcing-top-right p {
+    font-size: 17px;
+    margin-top: 5px;
+  }
+  .outsourcing-service-bottom-section {
+    gap: 0;
+    padding: 25px 10px;
+  }
+  .outsourcing-bottom-left-part img {
+    width: 360px;
+    height: 303px;
+  }
+  .outsourcing-bottom-right p {
+    font-size: 16px;
+  }
+  .outsourcing-bottom-right li {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  /* outsourcing experties section */
+  .experties-top-part h2 {
+    font-size: 41px;
+  }
+  .experties-bottom-div-1-right {
+    max-width: 60%;
+  }
+  .experties-bottom-div-1-left h3 {
+    font-size: 21px;
+  }
+
   /* eight-section */
   .sec-8-div-1 {
     justify-content: flex-start;
@@ -1522,6 +1693,23 @@ i {
   }
   .sec-9-second-div-right {
     margin-left: 20px;
+  }
+
+  /* outsourcing-service-section */
+  .outsourcing-service-content {
+    width: 100%;
+  }
+  .outsourcing-top-left-part h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    line-height: 1.2;
+    max-width: 96%;
+  }
+  .outsourcing-service-bottom-section {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    padding: 40px 0;
   }
 }
 
@@ -1763,48 +1951,46 @@ i {
     max-width: 94%;
   }
 
- /* service-section */
- .service-section-content {
-  width: 100%;
-  padding: 20px 15px 20px 15px;
-
-}
-.service-sec-top-part h2 {
-  font-size: 29px;
-  line-height: 1.2;
-}
-.service-sec-top-part p {
-  font-size: 16px;
-}
-.service-sec-list li {
-  font-size: 14px;
-  padding: 20px 20px 20px 0;
-  font-weight: 600;
-}
-.service-sec-down-part {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  padding: 10px 0;
-  justify-content: center;
-  align-items: center;
-}
-.service-sec-left-part img {
-  width: 379px;
-  height: 366px;
-}
-.service-sec-right-part {
-  padding-left: 15px;
-}
-.service-sec-right-part h3 {
-  font-size: 24px;
-  line-height: 1.1;
-  max-width: 100%;
-}
-.service-sec-right-part p {
-  font-size: 16px;
-}
-
+  /* service-section */
+  .service-section-content {
+    width: 100%;
+    padding: 20px 15px 20px 15px;
+  }
+  .service-sec-top-part h2 {
+    font-size: 29px;
+    line-height: 1.2;
+  }
+  .service-sec-top-part p {
+    font-size: 16px;
+  }
+  .service-sec-list li {
+    font-size: 14px;
+    padding: 20px 20px 20px 0;
+    font-weight: 600;
+  }
+  .service-sec-down-part {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-sec-left-part img {
+    width: 379px;
+    height: 366px;
+  }
+  .service-sec-right-part {
+    padding-left: 15px;
+  }
+  .service-sec-right-part h3 {
+    font-size: 24px;
+    line-height: 1.1;
+    max-width: 100%;
+  }
+  .service-sec-right-part p {
+    font-size: 16px;
+  }
 
   /* section-13 */
   .sec-13-root {
@@ -1962,6 +2148,71 @@ i {
   }
   .sec-9-right-down h4 {
     margin-top: 47px;
+  }
+
+  /* outsourcing-service-section */
+  .outsourcing-service-content {
+    width: 100%;
+  }
+  .outsourcing-service-top-section {
+    flex-direction: column;
+  }
+  .outsourcing-top-left-part {
+    max-width: 100%;
+  }
+  .outsourcing-top-right {
+    max-width: 100%;
+  }
+  .outsourcing-top-left-part h2 {
+    font-size: 29px;
+  }
+  .outsourcing-top-right p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .outsourcing-service-bottom-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 25px 10px;
+  }
+  .outsourcing-bottom-left-part img {
+    width: 387px;
+    height: 350px;
+  }
+  .outsourcing-bottom-right p {
+    font-size: 16px;
+    padding: 0;
+  }
+  .outsourcing-bottom-right li {
+    font-size: 16px;
+    margin-top: 10px;
+    padding-left: 0;
+  }
+
+  /* outsourcing experties section */
+  .experties-bottom-div-1 {
+    flex-direction: column;
+  }
+  .experties-top-part h2 {
+    font-size: 27px;
+  }
+  .experties-top-part p {
+    font-size: 17px;
+  }
+  .experties-bottom-div-1-left {
+    max-width: 100%;
+  }
+  .experties-bottom-div-1-right {
+    max-width: 100%;
+  }
+  .experties-bottom-div-1-left h3 {
+    font-size: 20px;
+  }
+  .experties-bottom-div-1-right p {
+    font-size: 16px;
+    margin-top: 10px;
   }
 
   /* faq-section */
@@ -2364,6 +2615,62 @@ i {
     max-width: 100%;
   }
 
+  /* outsourcing-service-section */
+  .outsourcing-service-content {
+    width: 100%;
+  }
+  .outsourcing-service-top-section {
+    flex-direction: column;
+  }
+  .outsourcing-top-left-part {
+    max-width: 100%;
+  }
+  .outsourcing-top-right {
+    max-width: 100%;
+  }
+  .outsourcing-top-left-part h2 {
+    font-size: 40px;
+  }
+  .outsourcing-top-right p {
+    font-size: 17px;
+    margin-top: 5px;
+  }
+  .outsourcing-service-bottom-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 25px 10px;
+  }
+  .outsourcing-bottom-left-part img {
+    width: 360px;
+    height: 303px;
+  }
+  .outsourcing-bottom-right p {
+    font-size: 16px;
+  }
+  .outsourcing-bottom-right li {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  /* outsourcing experties section */
+  .experties-top-part h2 {
+    font-size: 37px;
+  }
+  .experties-top-part p {
+    font-size: 18px;
+  }
+  .experties-bottom-div-1-right {
+    max-width: 57%;
+  }
+  .experties-bottom-div-1-left h3 {
+    font-size: 20px;
+  }
+  .experties-bottom-div-1-right p {
+    font-size: 16px;
+  }
+
   /* faq-section */
   .sec-18-top-part {
     text-align: left;
@@ -2619,7 +2926,6 @@ i {
   .service-section-content {
     width: 100%;
     padding: 20px 15px 20px 15px;
-
   }
   .service-sec-top-part h2 {
     font-size: 35px;
@@ -2789,6 +3095,69 @@ i {
     max-width: 100%;
   }
 
+  /* outsourcing-service-section */
+  .outsourcing-service-content {
+    width: 100%;
+  }
+  .outsourcing-service-top-section {
+    flex-direction: column;
+  }
+  .outsourcing-top-left-part {
+    max-width: 100%;
+  }
+  .outsourcing-top-right {
+    max-width: 100%;
+  }
+  .outsourcing-top-left-part h2 {
+    font-size: 35px;
+  }
+  .outsourcing-top-right p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .outsourcing-service-bottom-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 25px 10px;
+  }
+  .outsourcing-bottom-left-part img {
+    width: 360px;
+    height: 303px;
+  }
+  .outsourcing-bottom-right p {
+    font-size: 16px;
+  }
+  .outsourcing-bottom-right li {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  /* outsourcing experties section */
+  .experties-bottom-div-1 {
+    flex-direction: column;
+  }
+  .experties-top-part h2 {
+    font-size: 31px;
+  }
+  .experties-top-part p {
+    font-size: 17px;
+  }
+  .experties-bottom-div-1-left {
+    max-width: 100%;
+  }
+  .experties-bottom-div-1-right {
+    max-width: 100%;
+  }
+  .experties-bottom-div-1-left h3 {
+    font-size: 20px;
+  }
+  .experties-bottom-div-1-right p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
   /* faq-section */
   .sec-18-top-part h2 {
     font-size: 35px;
@@ -2892,49 +3261,48 @@ i {
     line-height: 1.4;
   }
 
-/* service section */
-.service-section-content {
-  width: 100%;
-  padding: 20px 15px 20px 15px;
-
-}
-.service-sec-top-part h2 {
-  font-size: 25px;
-  line-height: 1.2;
-  max-width: 100%;
-}
-.service-sec-top-part p {
-  font-size: 16px;
-}
-.service-sec-list li {
-  font-size: 14px;
-  padding: 20px 20px 20px 0;
-  font-weight: 600;
-  line-height: 1;
-}
-.service-sec-down-part {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  padding: 10px 0;
-  justify-content: center;
-  align-items: center;
-}
-.service-sec-left-part img {
-  width: 346px;
-  height: 333px;
-}
-.service-sec-right-part {
-  padding-left: 0;
-}
-.service-sec-right-part h3 {
-  font-size: 24px;
-  line-height: 1.1;
-  max-width: 100%;
-}
-.service-sec-right-part p {
-  font-size: 16px;
-}
+  /* service section */
+  .service-section-content {
+    width: 100%;
+    padding: 20px 15px 20px 15px;
+  }
+  .service-sec-top-part h2 {
+    font-size: 25px;
+    line-height: 1.2;
+    max-width: 100%;
+  }
+  .service-sec-top-part p {
+    font-size: 16px;
+  }
+  .service-sec-list li {
+    font-size: 14px;
+    padding: 20px 20px 20px 0;
+    font-weight: 600;
+    line-height: 1;
+  }
+  .service-sec-down-part {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-sec-left-part img {
+    width: 346px;
+    height: 333px;
+  }
+  .service-sec-right-part {
+    padding-left: 0;
+  }
+  .service-sec-right-part h3 {
+    font-size: 24px;
+    line-height: 1.1;
+    max-width: 100%;
+  }
+  .service-sec-right-part p {
+    font-size: 16px;
+  }
   /* sec-13 */
   .sec-13-content {
     margin: 1px 0 20px 0;
@@ -3022,19 +3390,91 @@ i {
     height: 133px;
     width: 55px;
   }
-}
 
-@media (min-width: 1025px) and (max-width: 1290px){
-
-/* service-section */
-.service-section-content{
-  width: 100%;
-}
-   /* sec-7 */
-   .sec-7-content {
+  /* sec-13 */
+  .sec-13-second-div p {
+    font-size: 16px;
+  }
+  /* outsourcing-service-section */
+  .outsourcing-service-content {
     width: 100%;
   }
-  .sec-7-right-part h2{
+  .outsourcing-service-top-section {
+    flex-direction: column;
+  }
+  .outsourcing-top-left-part {
+    max-width: 100%;
+  }
+  .outsourcing-top-right {
+    max-width: 100%;
+  }
+  .outsourcing-top-left-part h2 {
+    font-size: 24px;
+  }
+  .outsourcing-top-right p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .outsourcing-service-bottom-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 25px 10px;
+  }
+  .outsourcing-bottom-left-part img {
+    width: 307px;
+    height: 295px;
+  }
+  .outsourcing-bottom-right {
+    padding: 20px 0;
+  }
+  .outsourcing-bottom-right p {
+    font-size: 16px;
+    padding: 0;
+  }
+  .outsourcing-bottom-right li {
+    font-size: 16px;
+    margin-top: 10px;
+    padding-left: 0;
+  }
+
+  /* outsourcing experties section */
+  .experties-bottom-div-1 {
+    flex-direction: column;
+  }
+  .experties-top-part h2 {
+    font-size: 24px;
+  }
+  .experties-top-part p {
+    font-size: 16px;
+    margin: 30px 0 15px 0;
+  }
+  .experties-bottom-div-1-left {
+    max-width: 100%;
+  }
+  .experties-bottom-div-1-right {
+    max-width: 100%;
+  }
+  .experties-bottom-div-1-left h3 {
+    font-size: 20px;
+  }
+  .experties-bottom-div-1-right p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1290px) {
+  /* service-section */
+  .service-section-content {
+    width: 100%;
+  }
+  /* sec-7 */
+  .sec-7-content {
+    width: 100%;
+  }
+  .sec-7-right-part h2 {
     max-width: 85%;
   }
 
@@ -3042,5 +3482,5 @@ i {
   .eight-sec-content {
     width: 100%;
     gap: 50px;
-}
+  }
 }
